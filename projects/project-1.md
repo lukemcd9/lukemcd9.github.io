@@ -28,3 +28,5 @@ To make this project I used the programming language Python and the minimal web 
 After the user is authenticated they can do simple data entry with forms for Carehomes. The home page grabs all the Carehome records and displays them in a table and the user is able to sort the data by different fields. Clicking on the table rows will allow the user to view that single Carehome's information. Users can edit any of the Carehome's data, add any notes, or delete the Carehome from the app.
 
 Overall, doing this project was a huge learning experience for me and it peaked my interest in pursuing a career as a web developer. It helped me learn the basics of web development through HTML, CSS, HTTP protocols, MVC design pattern, cyber security, and MySQL. If I could do this again I would implement a REST API and feed it into a frontend framework like React.
+
+You can view the source code of the project [here](https://github.com/lukemcd9/carehome-finder)
