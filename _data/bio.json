@@ -24,7 +24,7 @@
         "network": "linkedin",
         "username": "lukemcd9",
         "url": "https://www.linkedin.com/in/luke-mcdonald-a94712188/"
-      },
+      }
     ]
   },
   "interests": [
@@ -80,7 +80,7 @@
   "education": [
     {
       "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2021)",
+      "area": "Computer Science (expected Spring, 2020)",
       "studyType": "B.S.",
       "startDate": "2019-08-26",
       "endDate": "Present",
@@ -98,8 +98,8 @@
       "endDate": "Present",
       "summary": "Web developer for Enterprise Systems' Software Engineering unit.",
       "highlights": [
-        "Maintain and update web applications with Spring Boot",
-        "Update web applications used in the UH system."
+        "Migrate web applications from Spring to Spring Boot",
+        "Add new features to web applications used in the UH system."
       ]
     },
     {
@@ -131,16 +131,10 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
-      "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
-    },
-    {
-      "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "title": "Dean's List",
+      "date": "2018",
+      "awarder": "Leeward Community College",
+      "summary": "The highest academic honor awarded by Leeward Community College to its students."
     }
   ],
   "references": [
