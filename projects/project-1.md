@@ -2,43 +2,29 @@
 layout: project
 type: project
 image: images/micromouse.jpg
-title: Micromouse
-permalink: projects/micromouse
+title: Carehome Finder
+permalink: projects/carehome-finder
 # All dates must be YYYY-MM-DD format!
-date: 2015-07-01
+date: 2018-06-13
 labels:
-  - Robotics
-  - Arduino
-  - C++
-summary: My team developed a robotic mouse that won first place in the 2015 UH Micromouse competition.
+  - Web App
+  - Python
+  - Flask
+  - MySQL
+summary: I developed a sample web app for a local business that connects patients that need assisted living to a network of carehomes.
 ---
 
 <div class="ui small rounded images">
-  <img class="ui image" src="../images/micromouse-robot.png">
-  <img class="ui image" src="../images/micromouse-robot-2.jpg">
-  <img class="ui image" src="../images/micromouse.jpg">
-  <img class="ui image" src="../images/micromouse-circuit.png">
+  <img class="ui image" src="../images/carehome-finder/home.png">
+  <img class="ui image" src="../images/carehome-finder/data-entry.png">
+  <img class="ui image" src="../images/carehome-finder/gallery.png">
+  <img class="ui image" src="../images/carehome-finder/home.png">
 </div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+Carehome finder is a project that I made as a sample web app for a local business named Caregivers Heart Hawaii. The point of the app is to match patients that needs assisted living with carehomes that can accommodate them. The solution that they were using at the time was a large Excel spread sheet. They wanted a new solution for this as the Excel sheet was becoming a hassle to maintain and it was hard for the workers to look through the data. This was the first web app that I've developed and I gained a lot of learning experinece by making this project.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+To make this project I used the programming language Python and the minimal web application framework Flask. For this app I used a simple Model, View, Controller (MVC) design pattern. To process the frontend of the app it uses a templating language called Jinja and it uses the library Bootstrap for easy styling and responsive pages. Since this was my first web app I had to learn about HTTP protocols and how MVC works. To use the app the user has to be authenticated through the login page before being able to do anything because of the Health Insurance Portability and Accountability Act (HIPAA). I had to make sure that patient data wasn't able to be seen by any unauthorized users. To also make sure user accounts could not be cracked the database does not store plaintext passwords. Before the user is registered the password they enter is hashed with SHA512 and salted and it sends the password hash to the database. When a user logs in the potential password they enter is hashed and salted and compares it with the hash that is in the database. 
 
-Here is some code that illustrates how we read values from the line sensors:
+After the user is authenticated they can do simple data entry with forms for Carehomes. The home page grabs all the Carehome records and displays them in a table and the user is able to sort the data by different fields. Clicking on the table rows will allow the user to view that single Carehome's information. Users can edit any of the Carehome's data, add any notes, or delete the Carehome from the app.
 
-```js
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
-    }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
-}
-```
-
-You can learn more at the [UH Micromouse Website](http://www-ee.eng.hawaii.edu/~mmouse/about.html).
-
-
-
+Overall, doing this project was a huge learning experience for me and it peaked my interest in pursuing a career as a web developer. It helped me learn the basics of web development through HTML, CSS, HTTP protocols, MVC design pattern, cyber security, and MySQL. If I could do this again I would implement a REST API and feed it into a frontend framework like React.
