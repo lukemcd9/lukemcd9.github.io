@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/micromouse.jpg
+image: images/carehome-finder/carehome.png
 title: Carehome Finder
 permalink: projects/carehome-finder
 # All dates must be YYYY-MM-DD format!
@@ -17,8 +17,8 @@ summary: I developed a sample web app for a local business that connects patient
 <div class="ui small rounded images">
   <img class="ui image" src="../images/carehome-finder/home.png">
   <img class="ui image" src="../images/carehome-finder/data-entry.png">
+  <img class="ui image" src="../images/carehome-finder/carehome.png">
   <img class="ui image" src="../images/carehome-finder/gallery.png">
-  <img class="ui image" src="../images/carehome-finder/home.png">
 </div>
 
 Carehome finder is a project that I made as a sample web app for a local business named Caregivers Heart Hawaii. The point of the app is to match patients that needs assisted living with carehomes that can accommodate them. The solution that they were using at the time was a large Excel spread sheet. They wanted a new solution for this as the Excel sheet was becoming a hassle to maintain and it was hard for the workers to look through the data. This was the first web app that I've developed and I gained a lot of learning experinece by making this project.
