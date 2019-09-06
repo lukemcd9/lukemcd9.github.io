@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: images/vacay-square.png
+image: images/filedrop.png
 title: UH FileDrop
 permalink: projects/uh-filedrop
 # All dates must be YYYY-MM-DD format!
