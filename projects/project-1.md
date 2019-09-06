@@ -14,7 +14,7 @@ labels:
 summary: I developed a sample web app for a local business that connects patients that need assisted living to a network of carehomes.
 ---
 
-<div class="ui small rounded images">
+<div class="ui rounded images">
   <img class="ui image" src="../images/carehome-finder/home.png">
   <img class="ui image" src="../images/carehome-finder/data-entry.png">
   <img class="ui image" src="../images/carehome-finder/carehome.png">
