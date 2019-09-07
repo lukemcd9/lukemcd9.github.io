@@ -11,7 +11,7 @@ labels:
   - Spring / Spring Boot
   - AngularJS
   - JUnit
-  - Bootstrap 4
+  - Bootstrap
   - Thymeleaf
 summary: FileDrop is a web application for the University of Hawaii (UH) for UH users to securely send files.
 ---

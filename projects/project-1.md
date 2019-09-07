@@ -10,7 +10,7 @@ labels:
   - Python
   - Flask
   - MySQL
-  - Bootstrap 3
+  - Bootstrap
 summary: I developed a sample web application for a local business that connects patients that need assisted living to a network of carehomes.
 ---
 
