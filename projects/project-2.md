@@ -8,7 +8,7 @@ permalink: projects/uh-filedrop
 date: 2019-07-24
 labels:
   - Java
-  - Spring / Spring Boot
+  - Spring Boot
   - AngularJS
   - JUnit
   - Bootstrap
