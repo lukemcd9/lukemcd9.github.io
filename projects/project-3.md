@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: /images/holidays.png
+image: images/holidays.png
 title: UH Holidays
 permalink: projects/uh-holidays
 # All dates must be YYYY-MM-DD format!
@@ -22,4 +22,3 @@ When I was hired to work at Enterprise Systems as a Java Web Programmer the firs
 Our tasks were making improvements to the user interface of the application like highlighting the next holiday that is coming up by using [AngularJS](https://angularjs.org/). Adding more information for what type of holiday it is. Improvements to the REST API that internal apps use for getting holidays. Overall, I thought this app was a great starting point in learning web development with Spring Boot and how software development at the enterprise level is managed.
 
 Source: <a href="https://github.com/lukemcd9/uh-holiday-webapp-boot"><i class="large github icon "></i>lukemcd9/uh-holiday-webapp-boot</a>
-
