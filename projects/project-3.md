@@ -3,59 +3,23 @@ layout: project
 type: project
 image: images/cotton-square.png
 title: UH Holidays
-permalink: projects/cotton
+permalink: projects/uh-holidays
 # All dates must be YYYY-MM-DD format!
-date: 2014-04-12
+date: 2019-06-26
 labels:
-  - Lisp
-  - GitHub
+  - Java
+  - Spring Boot
+  - AngularJS
+  - REST API
+  - Bootstrap
 summary: A text adventure game I developed for ICS 313.
 ---
 
-<img class="ui image" src="{{ site.baseurl }}/images/cotton-header.png">
+<img class="ui image" src="{{ site.baseurl }}/images/holidays.png">
 
-Cotton is a horror-esque text-based adventure game I developed using the functions and macros built from The Wizard's Game in [Conrad Barski's Land of Lisp](http://landoflisp.com/). Slightly more interesting and convoluted! (It is not that scary.)
+When I was hired to work at Enterprise Systems as a Java Web Programmer the first project that my coworkers and I were assigned to was a simple introductory [Spring Boot](https://spring.io/projects/spring-boot) web application called the Holiday web service. It's a relatively small application that shows what holidays there are in a selected year and what type of holiday they are, example: Federal, State, UH, and Bank holidays. The Holidays app is mainly used internally, but this helped us learn the basics of web applications with Spring Boot. We also had a glimpse of what it's like to work in an enterprise setting where there would be weekly meetings discussing what we worked on. We were introduced to [Jira](https://www.atlassian.com/software/jira) the issue tracking software which is what we would check for seeing what tasks there are to do. Also unit testing with [JUnit](https://junit.org/junit5/) which at first I wondered why we had to use it, but after using it I understood that actually making sure that your logic works correctly rather than assuming it is correct saves time and headaches.
 
-To give you a flavor of the game, here is an excerpt from one run:
+Our tasks were making improvements to the user interface of the application like highlighting the next holiday that is coming up by using [AngularJS](https://angularjs.org/). Adding more information for what type of holiday it is. Improvements to the REST API that internal apps use for getting holidays. Overall, I thought this app was a great starting point in learning web development with Spring Boot and how software development at the enterprise level is like.
 
-<hr>
-
-<pre>
-You open your eyes, and you are greeted by an unfamiliar ceiling.
-Startled, you get to your feet and quickly scan your surroundings. It's
-dark except for the stream of light coming from a crack on the only boarded
-window in the room. You try to peek through the crack, but you cannot see
-anything. You wonder where you are and who could have possibly brought you here.
-
-<--------------------help------------------------>
-Enter quit or one of the following commands -
-Weld light look walk pickup inventory help h ?
-<------------------------------------------------>
-
-look
-The room is a picture of decay with only a faded number identifying it as room-4. The bed you were
- lying on is stained with what looks like dried blood. Could it be your blood? No - it is not. The
- only way out of the room aside from the door to the corridor is a window that is boarded shut. It
- looks like it has been like that for decades. There is a door going west from here. You see a candle
- on the floor. You see a match on the floor.
-
-pickup candle
-- you are now carrying the candle -
-
-pickup match
-- you are now carrying the match -
-
-light match candle
-
-The candle is now lit. It illuminates everything in the room.
-
-walk west
-The corridor is lit with the candle. It is so long that you cannot see to the end. You notice that
- there are words written on the wall. There is a door going east from here. There is a way going north
- from here. There is a door going south from here.
-</pre>
-
-<hr>
-
-Source: <a href="https://github.com/jogarces/ics-313-text-game"><i class="large github icon "></i>jogarces/ics-313-text-game</a>
+Source: <a href="https://github.com/lukemcd9/uh-holiday-webapp-boot"><i class="large github icon "></i>lukemcd9/uh-holiday-webapp-boot</a>
 
