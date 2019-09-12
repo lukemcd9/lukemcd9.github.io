@@ -87,6 +87,16 @@
       "gpa": "",
       "courses": [
       ]
+    },
+    {
+      "institution": "Leeward Community College, Pearl City, HI",
+      "area": "Information and Computer Science with Software Developer specialization",
+      "studyType": "A.S.",
+      "startDate": "2015-08-26",
+      "endDate": "2018-05-15",
+      "gpa": "3.8",
+      "courses": [
+      ]
     }
   ],
   "work": [
