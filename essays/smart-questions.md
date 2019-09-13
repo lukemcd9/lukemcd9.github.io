@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: How to Get Good Answers
+title: How to Get Your Question Answered
 # All dates must be YYYY-MM-DD format!
 date: 2019-09-11
 labels:
