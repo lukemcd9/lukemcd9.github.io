@@ -1,7 +1,7 @@
 ---
 layout: essay
 type: essay
-title: The bane of my existence 
+title: The Bane of My Existence
 # All dates must be YYYY-MM-DD format!
 date: 2019-10-10
 labels:
