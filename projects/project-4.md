@@ -16,7 +16,7 @@ labels:
 summary: Books for Bows is a web application that enables UH Mānoa students to buy and sell used textbooks to other students rather than selling them back to the books store for less than what they bought it for.
 ---
 
-<img class="ui medium right floated rounded image" src="../images/books-for-bows.png">
+<img class="ui image" src="../images/books-for-bows.png">
 
 ## Overview
 Books for Bows is a web application written in pure JavaScript that I helped developed in a group with three other developers. It was a really great learning experience for frontend development with React and backend development with Meteor. The main point of the application is to cut out the middle man (the UH Bookstore) of selling and buying textbooks. It allows students to buy and sell textbooks to other textbooks, the application also shows what books are needed for certain courses.
