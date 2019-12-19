@@ -9,6 +9,7 @@ labels:
   - User Interfaces
   - Semantic UI
   - CSS
+published: false
 ---
 <img class="ui image centered" src="https://i.redd.it/nbypjvdoqy531.png">
 
