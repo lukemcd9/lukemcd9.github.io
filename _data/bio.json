@@ -103,11 +103,24 @@
   "work": [
     {
       "company": "UH Manoa Information Technology Services: Enterprise Systems, Software Engineering",
+      "position": "Java Web Programmer III",
+      "website": "http://www.hawaii.edu/its/about/enterprise-systems/",
+      "startDate": "2019-10-28",
+      "endDate": "Present",
+      "summary": "Student web developer for Enterprise Systems' Software Engineering unit.",
+      "highlights": [
+        "Work on ground up update of UH FileDrop",
+        "Work with minimal supervision",
+        "Help less experienced student developers."
+      ]
+    },
+    {
+      "company": "UH Manoa Information Technology Services: Enterprise Systems, Software Engineering",
       "position": "Java Web Programmer II",
       "website": "http://www.hawaii.edu/its/about/enterprise-systems/",
       "startDate": "2019-06-26",
-      "endDate": "Present",
-      "summary": "Web developer for Enterprise Systems' Software Engineering unit.",
+      "endDate": "2019-10-28",
+      "summary": "Student web developer for Enterprise Systems' Software Engineering unit.",
       "highlights": [
         "Migrate web applications from Spring to Spring Boot",
         "Add new features to web applications used in the UH system.",
